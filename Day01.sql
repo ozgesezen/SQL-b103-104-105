@@ -7,8 +7,8 @@
 --CREATE - TABLO OLUSTURMA
 CREATE TABLE ogrenciler2
 ( 
-ogrenci_no char(7),
-isim varchar(20),	
+ogrenci_no char(7), --Uzunlugunu bildigimiz stringler icin CHAR kullanilir
+isim varchar(20),	--Uzunlugunu bilmedigimiz stringler icin VARCHAR kullaniriz
 soyisim varchar(25),
 not_ort real,--ondalikli sayilar icin kullanilir
 kayit_tarihi date	
